@@ -11,7 +11,7 @@ for line in sys.stdin:
     line = line.strip()
 
     if switch == 1:
-        if line == "1903":
+        if line == "1903":  # First line of the second text
             doc_id = 2
             switch = 0
         else:
