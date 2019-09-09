@@ -15,13 +15,6 @@ def get_tfidf(word_count, word_per_doc, n_doc, N=2):
     return (word_count / float(word_per_doc)) * math.log(N / n_doc)
 
 
-# Input:
-# abc     1,3,12000
-# abc     2,3,13000 => print ((abc,1), 2)
-# bce     1,1,12000 => print ((abc,2), 2)
-# def     1,2,12000 => print ((bce,1), 1)
-# def     2,4,13000 => print ((def,1), 2)
-
 for line in sys.stdin:
     line = line.strip()
     word, rest = line.split("\t")
