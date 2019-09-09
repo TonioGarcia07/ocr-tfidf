@@ -1,4 +1,4 @@
-# TF-IDF
+# 🕵️‍ TF-IDF
 
 ## Setup
 
@@ -6,8 +6,8 @@ Install [hadoop](https://www.google.com/search?q=hadoop).
 
 Download the corpus:
 
-- The Call of the Wild: `curl -X GET http://www.textfiles.com/etext/FICTION/callwild > callwild.txt`
-- Robin Crusoé: `curl -X GET http://www.textfiles.com/etext/FICTION/defoe-robinson-103.txt > robin-crusoe.txt`
+- The Call of the Wild 🤠: `curl -X GET http://www.textfiles.com/etext/FICTION/callwild > callwild.txt`
+- Robin Crusoé 🏐: `curl -X GET http://www.textfiles.com/etext/FICTION/defoe-robinson-103.txt > robin-crusoe.txt`
 
 Place the files in HDFS (corpus and stopwords):
 
